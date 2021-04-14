@@ -1,3 +1,5 @@
+package cn.joruachan.utils;
+
 import sun.misc.Unsafe;
 
 import java.io.Serializable;
@@ -9,6 +11,8 @@ import java.lang.reflect.Field;
  * 内部通过char和int互转；
  *
  * @author JoruaChan
+ * @phone 16602103479
+ * @contact joruachan@gmail.com
  */
 public class AtomicCharacter implements Serializable {
     private static final long serialVersionUID = -5080769349245906188L;
